@@ -27,7 +27,7 @@ int main() {
                 cout << "Introduzca el primer número: " << endl;
                 cin >> num1;
                 cout << "Introduzca el segundo número: " << endl;
-                cin >> num2
+                cin >> num2;
                 cout << "El resultado es: " << num1-num2 << endl;
                 break;
             case 3:

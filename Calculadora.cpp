@@ -11,7 +11,8 @@ int main() {
         cout << "1. Suma." << endl;
         cout << "2. Resta." << endl;
         cout << "3. Multiplicación." << endl;
-        cout << "4. Salir." << endl;
+        cout << "4. División." << endl;
+        cout << "5. Salir." << endl;
         cin >> opcion;
 
         switch(opcion) {
@@ -36,9 +37,16 @@ int main() {
                 cin >> num2;
                 cout << "El resultado es: " << num1*num2 << endl;
                 break;
+            case 4:
+                cout << "Introduzca el primer número: " << endl;
+                cin >> num1;
+                cout << "Introduzca el segundo número: " << endl;
+                cin >> num2;
+                cout << "El resultado es: " << num1/num2 << endl;
+                break;
 
         }
-    } while(opcion != 4);
+    } while(opcion != 5);
 
 
 
